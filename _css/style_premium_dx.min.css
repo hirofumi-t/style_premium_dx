@@ -1,0 +1,42 @@
+#i-container{
+    overflow-x: hidden;
+    color: #464646;
+}
+
+#i-container *,#i-container::before,#i-container::after{
+    font-family: :"Noto Sans JP",sans-serif;
+    font: size 16px;
+    font-weight:300;
+    letter-spacing:.04em;
+    line-height:2.25;
+    box-sizing:border-box
+}
+
+@media(max-width:767px){
+    #i-container *,#i-container::before,#i-container::after{
+        font-size: 14px;
+        line-height: 2.1428571429
+    }
+}
+
+#i-container img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle
+}
+
+@media(max-width:767px){
+    #i-container.pc{
+        display: none !important
+    }
+}
+
+@media(min-width:768px){
+    #i-container.sp{
+        display: none !important
+    }
+}
+
+/* 第1行、第553列から */
+
+
