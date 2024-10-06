@@ -37,6 +37,70 @@
     }
 }
 
-/* 第1行、第553列から */
+#l-container section {
+    position: relative
+}
+
+#l-container .inner {
+    width: calc(100% - 60px);
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+
+@media(max-width: 767px) {
+    #l-container .inner {
+        max-width: 500px
+    }
+}
+
+#l-container .light_ttl {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: .1em;
+    line-height: 1.6666666667;
+    text-align: center
+}
+
+@media(max-width: 767px) {
+    #l-container .light_ttl {
+        font-size: min(6.8vw, 26px);
+        letter-spacing: .08em;
+        line-height: 1.7692307692
+    }
+}
+
+#l-container [data-animation=fadeIn] {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: ease-out 1s
+}
+
+#l-container [data-animation=fadeIn].anima_start {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+#l-container [data-animation=slideBorder] {
+    position: relative
+}
+
+#l-container [data-animation=slideBorder]::before {
+    content: "";
+    width: 100%;
+    height: calc(100% + 1px);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    transition: ease-out 1s;
+    transform-origin: right;
+    transform: scaleX(1)
+}
+
+
+/* 第1行、第1478列から */
 
 
