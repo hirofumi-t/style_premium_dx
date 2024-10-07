@@ -100,7 +100,24 @@
     transform: scaleX(1)
 }
 
+#l-container [data-animation=slideBorder]>* {
+    padding-bottom: .25em;
+    display: inline;
+    background: linear-gradient(transparent calc(100% - 2px), #e1e9e7 2px)
+}
 
-/* 第1行、第1478列から */
+#l-container [data-animation=slideBorder]>*>span {
+    position: relative;
+    z-index: 1
+}
+
+#l-container [data-animation=slideBorder].anima_start::before {
+    transform: scaleX(0)
+}
+
+
+
+/* 第1行、第1787列から */
+
 
 
