@@ -115,9 +115,55 @@
     transform: scaleX(0)
 }
 
+#l-container section.mainvis img,#l-container section.scene img {
+    width: 100%
+}
+
+#l-container section.mainvis .mainvis_slider,#l-container section.mainvis .scene_silider,#l-container section.scene .mainvis_slider,#l-container section.scene .scene_silider {
+    margin: 0;
+    opacity: 0;
+    transition: ease-out .3s
+}
+
+#l-container section.mainvis .mainvis_slider.slick-initialized,#l-container section.mainvis .scene_silider.slick-initialized,#l-container section.scene .mainvis_slider.slick-initialized,#l-container section.scene_silider.slick-initialized {
+    opacity: 1
+}
+
+#l-container section.mainvis .slick-dots,#l-container section.scene .slick-dots li {
+    font-size: 0;
+    position: absolute;
+    bottom: 20px;
+}
+
+#l-container section.mainvis .slick-dots li,#l-container section.scene .slick-dots li {
+    width: 8px;
+    height: 8px;
+    margin: 0 6px
+}
+
+#l-container section.mainvis .slick-dots button,#l-container section.scene .slick-dots button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-size: 0;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#l-container section.mainvis .slick-dots button::before,#l-container section.scene .slick-dots button::before {
+    content: none
+}
+
+#l-container section.mainvis .slick-dots .slick-active button,#l-container section.scene .slick-dots .slick-active button {
+    background: #aebac6;
+}
 
 
-/* 第1行、第1787列から */
+
+
+
+/* 第1行、第3032列から */
 
 
 
