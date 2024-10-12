@@ -159,11 +159,95 @@
     background: #aebac6;
 }
 
+#l-container section.about {
+    margin: 78px 0 115px
+}
+
+@media(max-width: 767px) {
+    #l-container section.about {
+        margin: 37px 0 55px
+    }
+}
+
+#l-container section.about .inner {
+    padding-bottom: 117px;
+    border-bottom: 1px solid #ededed
+}
+
+@media(max-width: 767px) {
+    #l-container section.about .inner {
+        padding-bottom: 54px
+    }
+}
+
+#l-container section.about h2 {
+    margin-bottom: 111px
+}
+
+@media(max-width: 767px) {
+    #l-container section.about h2 {
+        margin-bottom: 38px
+    } 
+}
+
+#l-container section.about .column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+@media(max-width: 767px) {
+    #l-container section.about .column {
+        flex-direction: column-reverse
+    }
+}
+#l-container section.about img {
+    width: 51.3%
+}
+
+@media(max-width: 767px) {
+    #l-container section.about .img {
+        width:calc(100% + 60px);
+        margin-bottom: 36px;
+        position: relative
+    }
+}
+
+#l-container section.about .txt {
+    width: 43.7%
+}
+
+@media(max-width 767px) {
+    #l-container section.about .txt {
+        width: 100%
+    }
+}
+
+#l-container section.about h3 {
+    margin-bottom: 23px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: .08em;
+    line-height: 1.9090909091
+}
+
+@media(max-width: 767px) {
+    #l-container section.about h3 {
+        font-size: 20px;
+        line-height: 1.8
+    }
+}
 
 
 
 
-/* 第1行、第3032列から */
+
+
+
+
+
+
+/* 第1行、第4120列から */
 
 
 
