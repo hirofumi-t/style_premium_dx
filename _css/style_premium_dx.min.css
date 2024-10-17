@@ -238,6 +238,151 @@
     }
 }
 
+#l-container section.posture {
+    margin-bottom: 120px
+}
+
+
+@media(max-width: 767px) {
+    #l-container section.posture {
+        margin-bottom: 60px
+    }
+}
+
+#l-container section.posture .inner>* {
+    max-width: 828px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+#l-container section.posture h2 {
+    margin-bottom: 51px
+}
+
+@media(max-width: 767px) {
+    #l-container section.posture h2 {
+        margin-bottom: 30px
+    }
+}
+
+#l-container section.posture .lead {
+    max-width: 402px;
+    margin: 0 auto 54px
+}
+
+@media(max-width: 767px) {
+    #l-container section.posture .lead {
+        margin-bottom: 35px
+    }
+}
+
+#l-container section.posture .compare {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#l-container section.posture .compare .bad,#l-container section.posture .compare .arrow,#l-container section.posture .compare .good {
+    opacity: 0;
+    transition: ease-out 1s
+}
+
+#l-container section.posture .compare .bad,#l-container section.posture .good {
+    width: 260px;
+    text-align: center
+}
+
+
+@media(max-width: 767px) {
+    #l-container section.posture .compare .bad,#l-container section.posture .compare .good {
+        width: 44.5%
+    }
+}
+
+#l-container section.posture .compare .title {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    letter-spacing: .06em;
+    color: #fff
+}
+
+@media(max-width: 767px) {
+    #l-container section.posture .compare .title {
+        height: 36px
+    }
+}
+
+#l-container section.posture .compare .img {
+    height: 311px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3
+}
+
+@media(max-width: 767px) {
+    #l-container section.posture .compare .img {
+        height: auto;
+        padding: 2px
+    }
+}
+
+#l-container section.posture .compare .img img {
+    height: 280px;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+@media(max-width: 767px) {
+    #l-container section.posture .compare .img img {
+        height: auto;
+        max-height: 182px
+    }
+}
+
+#l-container section.posture .compare p:not(.title) {
+    font-size: 14px;
+    font-weight: 400
+}
+
+@media(max-width: 767px) {
+    #l-container section.posture .compare p:not(.title) {
+        font-size: 11px
+    }
+}
+
+#l-container section.posture .compare .bad {
+    color: #98a9ba;
+    transition-delay: 0
+}
+
+#l-container section.posture .compare .bad .title {
+    background: #aebac6;
+}
+
+#l-container section.posture .compare .arrow {
+    width: 16px;
+    height: 20;
+    margin:  0 20px;
+    background: #8d8b8b;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    transition-delay: 1s
+}
+
+@media(max-width: 767px) {
+    #l-container secrion.posture .compare .arrow {
+        width: 12px;
+        height: 18px;
+        margin: -20px 12px 0
+    }
+}
 
 
 
@@ -245,9 +390,7 @@
 
 
 
-
-
-/* 第1行、第4120列から */
+/* 第1行、第6475列から */
 
 
 
