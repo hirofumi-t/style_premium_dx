@@ -672,6 +672,33 @@
   }  
 }
 
+#l-container section.support .feature_list .title {
+    margin-bottom: 19px;
+    color: #4b5f5d
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .feature_list .title {
+        margin-bottom: 7px
+    }
+}
+
+#l-container section.support .feature_list .title::before {
+    background: #f0f5f4
+}
+
+#l-container section.support .feature_list .title p {
+    padding-bottom: 1.65em;
+    display: block;
+    background: none;
+    border-bottom: 1px solid #4b5f5d;
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .feature_list .title p {
+        padding-bottom: .4em
+    }
+}
 
 
 
@@ -680,9 +707,7 @@
 
 
 
-
-
-/* 第1行、第11067列から */
+/* 第1行、第11505列から */
 
 
 
