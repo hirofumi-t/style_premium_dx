@@ -822,6 +822,189 @@
     line-height: 1.7142857143
 }
 
+#l-container section.support .column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column {
+        flex-direction: column-reverse;
+        align-items: flex-start
+    }
+}
+
+#l-container section.support .column .compare {
+    width: 51.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .compare {
+        width: 100%;
+        padding-bottom: 105px
+    }
+}
+
+#l-container section.support .column .compare .unuse,#l-container section.support .column .compare .use {
+    width: 45%;
+    text-align: center
+}
+
+#l-container section.support .column .compare .img {
+    height: 170px;
+    padding: 0 10px;
+    background: #fff
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .compare .img {
+        height: 122px
+    }
+}
+
+#l-container section.support .column .compare .img img {
+    width: 150px
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .compare .img img {
+        width: 106px
+    }
+}
+
+#l-container section.support .column .compare p {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .06em;
+    color: #fff
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .compare p {
+        height: 44px;
+        font-size: 11px;
+        letter-spacing: .02em;
+        line-height: 1.4545454545
+    }
+}
+
+#l-container section.support .column .compare .unuse {
+    color: #98a9ba
+}
+
+#l-container section.support .column .compare .unuse .img {
+    padding-top: 16px
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .compare .unuse .img {
+        padding-top: 12px
+    }
+}
+
+#l-container section.support .column .compare .unuse p {
+    background: #aebac6
+}
+
+#l-container section.support .column .compare .use {
+    color: #7b9996
+}
+
+#l-container section.support .column .compare .use .img {
+    padding-top: 16px
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .compare .use .img {
+        padding-top: 12px
+    }
+}
+
+#l-container section.support .column .compare .use p {
+    background: #98bab9
+}
+
+#l-container section.support .column .compare .arrow {
+    width: 16px;
+    height: 20px;
+    margin: -14px 3.8% 0;
+    background: #8d8b8b;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    clip-path: polygon(0 0, 0% 100%, 100% 50%)
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .compare .arrow {
+        width: 12px;
+        height: 18px;
+        margin: 3px 19px 0
+    }
+}
+
+#l-container section.support .column .pressure {
+    padding-top: 6px;
+    width: 44.2%
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .pressure {
+        width: 100%
+    }
+}
+
+#l-container section.support .column .pressure .title {
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7142857143;
+    text-align: center;
+    border: 1px solid #7b9996;
+    border-radius: 8px;
+    color: #7b9996
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .pressure .title {
+        margin-bottom: 23px;
+        padding: 11px 10px
+    }
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .pressure .note_list {
+        position: absolute;
+        bottom: 0
+    }
+}
+
+#l-container section.support .column .pressure .note_list li {
+    padding-left: 1em;
+    font-size: 12px;
+    line-height: 1.6666666667;
+    text-indent: -1em
+}
+
+@media(max-width: 767px) {
+    #l-container section.support .column .pressure .note_list li{
+        font-size: 11px;
+        line-height: 1.6363636364
+    }
+}
+
+#l-container section.support .column .pressure .note_list li::before {
+    content: "※"
+}
 
 
 
@@ -832,7 +1015,9 @@
 
 
 
-/* 第1行、第13635列から */
+
+
+/* 第1行、第16797列から */
 
 
 
