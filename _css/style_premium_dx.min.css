@@ -1006,6 +1006,134 @@
     content: "※"
 }
 
+#l-container section .luxury {
+    padding: 116px 0 118px
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury {
+        padding: 57px 0 60px
+    }
+}
+
+@media(min-width: 768px) {
+    #l-container section .luxury .inner {
+        max-width: 828px
+    }
+}
+
+#l-container section .luxury h2 {
+    margin-bottom: 52px
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury h2 {
+        margin-bottom: 30px
+    }
+}
+
+#l-container section .luxury .urethane {
+    padding-bottom: 80px
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane {
+        padding-bottom: 40px
+    }
+}
+
+#l-container section .luxury .urethane .column {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane .column {
+        flex-direction: column-reverse;
+        margin-bottom: 40px
+    }
+}
+
+#l-container section .luxury .urethane .column .txt {
+    width: 39%
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane .column .txt {
+        width: 100%
+    }
+}
+
+#l-container section .luxury .urethane .column .txt p {
+    font-size: 16px;
+    line-height: 2.25
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane .column .txt p {
+        font-size: 14px;
+        line-height: 2
+    }
+}
+
+
+#l-container section .luxury .urethane .column .img {
+    width: 54%
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane .column .img {
+        width: 100%;
+        margin-bottom: 40px
+    }
+}
+
+#l-container section .luxury .urethane .graph .svg_uretan {
+    position: relative;
+    aspect-ratio: 848/460;
+    margin-left: -16px;
+    margin-right: -16px;
+    width: calc(100% + 32px)
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane .graph .svg_uretan {
+        aspect-ratio: 358/297
+    }
+}
+
+#l-container section .luxury .urethane .graph .svg_uretan svg {
+    width: auto !important;
+    height: auto !important
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane .graph .svg_uretan svg {
+        width: 100% !important;
+        height: 100% !important
+    }
+}
+
+#l-container section .luxury .urethane .graph .note_list li {
+    padding-left: 1em;
+    font-size: 12px;
+    line-height: 1.6666666667;
+    text-indent: -1em;
+    display: inline-block
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .urethane .graph .note_list li {
+        font-size: 11px;
+        line-height: 1.6363636364;
+        display: block
+    }
+}
+
+#l-container section .luxury .urethane .graph .note_list li::before {
+    content: "※"
+}
 
 
 
@@ -1017,7 +1145,11 @@
 
 
 
-/* 第1行、第16797列から */
+
+
+
+
+/* 第1行、第18876列から */
 
 
 
