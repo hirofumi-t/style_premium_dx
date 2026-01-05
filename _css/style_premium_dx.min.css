@@ -1175,6 +1175,136 @@
     }
 }
 
+#l-container section .luxury .box {
+    max-width: 686px;
+    margin: 0 auto;
+    padding: 30px 40px 40px 60px;
+    display: grid;
+    grid-template-areas: "lead  img" "title  img" "btn  img";
+    grid-template-columns: 1fr 36.2%;
+    grid-gap: 0 48px;
+    justify-items: start;
+    background: #74685c;
+    color: #c1b3a6
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .box {
+        padding: 25px 20px 30px;
+        grid-template-areas: "lead" "title" "img" "btn";
+        grid-template-columns: 100%;
+        grid-gap: 0
+    }
+}
+
+#l-container section .luxury .box .lead {
+    grid-area: lead;
+    margin-bottom: 16px;
+    letter-spacing: .06em;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    width: 100%
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .box .lead {
+        margin-bottom: 12px;
+        font-feature-settings: "palt"
+    }
+}
+
+#l-container section .luxury .box h2 {
+    grid-area: title;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 100%
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .box h2 {
+        margin-bottom: 4px
+    }
+}
+
+#l-container section .luxury .box h2 img {
+    width: auto;
+    height: 26px;
+    display: block;
+    margin: 0 auto 6px
+}
+
+#l-container section .luxury .box h2 span {
+    display: block;
+    font-size: 10px;
+    letter-spacing: .06em;
+    line-height: 24px
+}
+
+#l-container section .luxury .box .btn_wrap {
+    grid-area: btn;
+    width: 100%;
+    margin-top: auto
+}
+
+#l-container section .luxury .box .btn_wrap a {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .08em;
+    position: relative;
+    background: #534d44;
+    color: #fff;
+    transition: ease-out .3s
+}
+
+#l-container section .luxury .box .btn_wrap a::before {
+    content: "";
+    width: 10px;
+    height: 8px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    background: #fff;
+    -webkit-mask-image: url("../_img/icon_arrow.svg");
+    mask-image: url("../_img/icon_arrow.svg");
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    transition: ease-out .3s
+}
+
+@media(any-hover: hover) {
+    #l-container section .luxury .box .btn_wrap a:hover {
+        opacity: 1;
+        background: #3c3831
+    }
+
+    #l-container section .luxury .box .btn_wrap a:hover::before {
+        right: 12px
+    }
+}
+
+#l-container section .luxury .box .img {
+    grid-area: img
+}
+
+@media(max-width: 767px) {
+    #l-container section .luxury .box .img {
+        width: 62.3%;
+        margin: 0 auto 8px
+    }
+}
 
 
 
@@ -1186,7 +1316,9 @@
 
 
 
-/* 第1行、第19517列から */
+
+
+/* 第1行、第21680列から */
 
 
 
