@@ -1006,90 +1006,90 @@
     content: "※"
 }
 
-#l-container section .luxury {
+#l-container section.luxury {
     padding: 116px 0 118px
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury {
+    #l-container section.luxury {
         padding: 57px 0 60px
     }
 }
 
 @media(min-width: 768px) {
-    #l-container section .luxury .inner {
+    #l-container section.luxury .inner {
         max-width: 828px
     }
 }
 
-#l-container section .luxury h2 {
+#l-container section.luxury h2 {
     margin-bottom: 52px
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury h2 {
+    #l-container section.luxury h2 {
         margin-bottom: 30px
     }
 }
 
-#l-container section .luxury .urethane {
+#l-container section.luxury .urethane {
     padding-bottom: 80px
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .urethane {
+    #l-container section.luxury .urethane {
         padding-bottom: 40px
     }
 }
 
-#l-container section .luxury .urethane .column {
+#l-container section.luxury .urethane .column {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .urethane .column {
+    #l-container section.luxury .urethane .column {
         flex-direction: column-reverse;
         margin-bottom: 40px
     }
 }
 
-#l-container section .luxury .urethane .column .txt {
+#l-container section.luxury .urethane .column .txt {
     width: 39%
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .urethane .column .txt {
+    #l-container section.luxury .urethane .column .txt {
         width: 100%
     }
 }
 
-#l-container section .luxury .urethane .column .txt p {
+#l-container section.luxury .urethane .column .txt p {
     font-size: 16px;
     line-height: 2.25
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .urethane .column .txt p {
+    #l-container section.luxury .urethane .column .txt p {
         font-size: 14px;
         line-height: 2
     }
 }
 
 
-#l-container section .luxury .urethane .column .img {
+#l-container section.luxury .urethane .column .img {
     width: 54%
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .urethane .column .img {
+    #l-container section.luxury .urethane .column .img {
         width: 100%;
         margin-bottom: 40px
     }
 }
 
-#l-container section .luxury .urethane .graph .svg_uretan {
+#l-container section.luxury .urethane .graph .svg_uretan {
     position: relative;
     aspect-ratio: 848/460;
     margin-left: -16px;
@@ -1103,19 +1103,19 @@
     }
 }
 
-#l-container section .luxury .urethane .graph .svg_uretan svg {
+#l-container section.luxury .urethane .graph .svg_uretan svg {
     width: auto !important;
     height: auto !important
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .urethane .graph .svg_uretan svg {
+    #l-container section.luxury .urethane .graph .svg_uretan svg {
         width: 100% !important;
         height: 100% !important
     }
 }
 
-#l-container section .luxury .urethane .graph .note_list li {
+#l-container section.luxury .urethane .graph .note_list li {
     padding-left: 1em;
     font-size: 12px;
     line-height: 1.6666666667;
@@ -1124,29 +1124,29 @@
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .urethane .graph .note_list li {
+    #l-container section.luxury .urethane .graph .note_list li {
         font-size: 11px;
         line-height: 1.6363636364;
         display: block
     }
 }
 
-#l-container section .luxury .urethane .graph .note_list li::before {
+#l-container section.luxury .urethane .graph .note_list li::before {
     content: "※"
 }
 
-#l-container section .luxury .velor {
+#l-container section.luxury .velor {
     padding-top: 94px;
     position: relative
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .velor {
+    #l-container section.luxury .velor {
         padding-top: 40px
     }
 }
 
-#l-container section .luxury .velor::before {
+#l-container section.luxury .velor::before {
     content: "";
     width: 100%;
     height: 1px;
@@ -1160,22 +1160,22 @@
     background-position: left
 }
 
-#l-container section .luxury .velor .img {
+#l-container section.luxury .velor .img {
     padding-bottom: 40px
 }
 
-#l-container section .luxury .velor .lead {
+#l-container section.luxury .velor .lead {
     max-width: 509px;
     margin: 0 auto 116px
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .velor .lead {
+    #l-container section.luxury .velor .lead {
         margin-bottom: 57px
     }
 }
 
-#l-container section .luxury .box {
+#l-container section.luxury .box {
     max-width: 686px;
     margin: 0 auto;
     padding: 30px 40px 40px 60px;
@@ -1197,7 +1197,7 @@
     }
 }
 
-#l-container section .luxury .box .lead {
+#l-container section.luxury .box .lead {
     grid-area: lead;
     margin-bottom: 16px;
     letter-spacing: .06em;
@@ -1222,32 +1222,32 @@
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .box h2 {
+    #l-container section.luxury .box h2 {
         margin-bottom: 4px
     }
 }
 
-#l-container section .luxury .box h2 img {
+#l-container section.luxury .box h2 img {
     width: auto;
     height: 26px;
     display: block;
     margin: 0 auto 6px
 }
 
-#l-container section .luxury .box h2 span {
+#l-container section.luxury .box h2 span {
     display: block;
     font-size: 10px;
     letter-spacing: .06em;
     line-height: 24px
 }
 
-#l-container section .luxury .box .btn_wrap {
+#l-container section.luxury .box .btn_wrap {
     grid-area: btn;
     width: 100%;
     margin-top: auto
 }
 
-#l-container section .luxury .box .btn_wrap a {
+#l-container section.luxury .box .btn_wrap a {
     width: 100%;
     height: 48px;
     display: flex;
@@ -1262,7 +1262,7 @@
     transition: ease-out .3s
 }
 
-#l-container section .luxury .box .btn_wrap a::before {
+#l-container section.luxury .box .btn_wrap a::before {
     content: "";
     width: 10px;
     height: 8px;
@@ -1285,27 +1285,65 @@
 }
 
 @media(any-hover: hover) {
-    #l-container section .luxury .box .btn_wrap a:hover {
+    #l-container section.luxury .box .btn_wrap a:hover {
         opacity: 1;
         background: #3c3831
     }
 
-    #l-container section .luxury .box .btn_wrap a:hover::before {
+    #l-container section.luxury .box .btn_wrap a:hover::before {
         right: 12px
     }
 }
 
-#l-container section .luxury .box .img {
+#l-container section.luxury .box .img {
     grid-area: img
 }
 
 @media(max-width: 767px) {
-    #l-container section .luxury .box .img {
+    #l-container section.luxury .box .img {
         width: 62.3%;
         margin: 0 auto 8px
     }
 }
 
+#l-container section.design {
+    padding-top: 117px;
+    margin-bottom: 76px
+}
+
+@media(max-width: 767px) {
+    #l-container section.design {
+        padding-top: 57px;
+        margin-bottom: 56px
+    }
+}
+
+@media(min-width: 768px) {
+    #l-container section.design .inner {
+        max-width: 828px
+    }
+}
+
+#l-container section.design h2 {
+    margin-bottom: 51px
+}
+
+@media(max-width: 767px) {
+    #l-container section.design h2 {
+        margin-bottom: 20px
+    }
+}
+
+#l-container section.design .lead {
+    max-width: 354px;
+    margin: 0 auto 54px
+}
+
+@media(max-width: 767px) {
+    #l-container section.design .lead {
+        margin-bottom: 26px
+    }
+}
 
 
 
@@ -1318,7 +1356,7 @@
 
 
 
-/* 第1行、第21680列から */
+/* 第1行、第22186列から */
 
 
 
