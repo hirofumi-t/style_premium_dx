@@ -1468,6 +1468,75 @@
     }
 }
 
+#l-container section.gift .box .btn_wrap {
+    grid-area: btn;
+    width: 100%;
+    margin-top: auto
+}
+
+#l-container section.gift .box .btn_wrap a {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .08em;
+    position: relative;
+    background: #fff;
+    color: #7b9996;
+    transition: ease-out .3s
+}
+
+#l-container section.gift .box .btn_wrap a::before {
+    content: "";
+    width: 10px;
+    height: 8px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    background: #7b9996;
+    -webkit-mask-image: url("../_img/icon_arrow.svg");
+    mask-image: url("../_img/icon_arrow.svg");
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    transition: ease-out .3s
+}
+
+@media(any-hover: hover) {
+    #l-container section.gift .box .btn_wrap a:hover {
+        opacity: 1;
+        background: #f0f5f4;
+        color: #4b5f5d
+    }
+
+    #l-container section.gift .box .btn_wrap a:hover::before {
+        right: 12px;
+        background: #4b5f5d
+    }
+}
+
+#l-container section.gift .box .btn_wrap a+a {
+    margin-top: 12px
+}
+
+#l-container section.gift .box .img {
+    grid-area: img
+}
+
+@media(max-width: 767px) {
+    #l-container section.gift .box .img{
+        margin-bottom: 25px
+    }
+}
 
 
 
@@ -1479,13 +1548,7 @@
 
 
 
-
-
-
-
-
-
-/* 第1行、第24155列から */
+/* 第1行、第25312列から */
 
 
 
