@@ -1729,6 +1729,195 @@
     }
 }
 
+#l-container .foot_link {
+    margin-bottom: 120px
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link {
+        margin-bottom: 60px
+    }
+}
+
+#l-container .foot_link .shop_link {
+    max-width: 828px;
+    margin: 0 auto 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .shop_link {
+        margin-bottom: 40px;
+        display: block
+    }
+}
+
+#l-container .foot_link .shop_link a {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: .08em;
+    position: relative;
+    background: #504f4f;
+    color: #fff;
+    transition: ease-out .3s
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .shop_link a {
+        height: 48px;
+        font-size: 12px;
+        letter-spacing: .04em
+    }
+}
+
+#l-container .foot_link .shop_link a::after {
+    content: "";
+    width: 10px;
+    height: 8px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    background: #fff;
+    -webkit-mask-image: url("../_img/icon_arrow.svg");
+    mask-image: url("../_img/icon_arrow.svg");
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    transition: ease-out .3s
+}
+
+@media(any-hover: hover) {
+    #l-container .foot_link .shop_link a:hover {
+        opacity: 1;
+        background: #313131
+    }
+
+    #l-container .foot_link .shop_link a:hover::after {
+        right: 12px
+    }
+}
+
+#l-container .foot_link .shop_link .online {
+    width: 100%;
+    margin-bottom: 62px;
+    padding: 32px 0 36px;
+    position: relative
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .shop_link .online {
+        margin-bottom: 20px;
+        padding: 18px 20px 20px
+    }
+}
+
+#l-container .foot_link .shop_link .online::before,#l-container .foot_link .shop_link .online::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale(0);
+    transition: ease-out 1s
+}
+
+#l-container .foot_link .shop_link .online::before {
+    transform-origin: top left;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed
+}
+
+#l-container .foot_link .shop_link .online::after {
+    transform-origin: bottom right;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed
+}
+
+#l-container .foot_link .shop_link .online.anima_start::before,#l-container .foot_link .shop_link .online.anima_start::after {
+    transform: scale(1)
+}
+
+#l-container .foot_link .shop_link .online p {
+    margin-bottom: 21px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .08em;
+    text-align: center
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .shop_link .online p {
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 1.7777777778
+    }
+}
+
+#l-container .foot_link .shop_link .online a {
+    max-width: 320px;
+    height: 48px;
+    margin: auto;
+    font-size: 11px
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .shop_link .online a {
+        letter-spacing: .1em
+    }
+}
+
+#l-container .foot_link .shop_link .shop,#l-container .foot_link .shop_link .contact {
+    width: 48.55%
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .shop_link .shop,#l-container .foot_link .shop_link .contact {
+        width: 100%
+    }
+}
+
+#l-container .foot_link .shop_link .shop::before,#l-container .foot_link .shop_link .contact::before {
+    content: "";
+    height: 20px;
+    margin-right: 10px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .shop_link .shop {
+        margin-bottom: 20px
+    }
+}
+
+#l-container .foot_link .shop_link .shop::before {
+    width: 15px;
+    background-image: url("../_img/icon_shop.svg")
+}
+
+#l-container .foot_link .shop_link .contact::before {
+    width: 20px;
+    background-image: url("../_img/icon_contact.svg")
+}
 
 
 
@@ -1739,8 +1928,7 @@
 
 
 
-
-/* 第1行、第28283列から */
+/* 第1行、第31661列から */
 
 
 
