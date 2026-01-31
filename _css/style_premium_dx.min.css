@@ -1919,6 +1919,20 @@
     background-image: url("../_img/icon_contact.svg")
 }
 
+#l-container .foot_link .style_link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between
+}
+
+@media(max-width: 767px) {
+    #l-container .foot_link .style_link {
+        width: calc(100% + 30px);
+        position: relative;
+        left: -15px
+    }
+}
 
 
 
@@ -1927,8 +1941,7 @@
 
 
 
-
-/* 第1行、第31661列から */
+/* 第1行、第31890列から */
 
 
 
